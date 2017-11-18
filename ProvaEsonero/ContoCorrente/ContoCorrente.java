@@ -3,9 +3,13 @@ public class ContoCorrente {
 
 	private static int saldo;
 	
+	public ContoCorrente(){
+		saldo = 0;
+	}
 	
-	private void saldoDiPartenza(){
+	public int saldoDiPartenza(){
 		this.saldo = 0;
+		return saldo;
 	}
 	
 	public void deposita(int soldi){
